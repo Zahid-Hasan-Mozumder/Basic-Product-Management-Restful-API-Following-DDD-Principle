@@ -1,0 +1,19 @@
+spring.application.name=product-management-restful-api
+
+# Managing spring boot banner on command line
+spring.main.banner-mode = off
+
+# H2 Database settings
+spring.datasource.url = jdbc:h2:mem:testdb
+spring.datasource.driverClassName = org.h2.Driver
+spring.datasource.username = sa
+spring.datasource.password =
+spring.datasource.platform = h2
+
+# Enable the H2 console
+spring.h2.console.enabled = true
+spring.h2.console.path = /h2-console
+
+# Hibernate settings
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.show-sql = true
